@@ -1,0 +1,9 @@
+    Cores: 
+
+        Ruddy Blue: HEX: #4AA5FF
+        Alice Blue: HEX: #E6F3FF
+        Columbia Blue:   #B9D6F2
+        Oxford Blue:     #061A40
+        Sapphire:        #0353A4
+        Bice Blue:       #006DAA
+        Prussian Blue:   #003559

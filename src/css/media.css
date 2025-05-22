@@ -1,0 +1,27 @@
+@import url(navbar.css);
+
+@media (min-width: 1px) and  (max-width: 1000px) {
+    .canto{
+        display: none;
+    }
+
+    .cantoDireito{
+        display: none;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+    .txtnav {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 430px) {
+    .center {
+        gap: 1%;
+    }
+    .txtnav {
+        text-wrap: initial;
+
+    }
+}
