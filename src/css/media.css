@@ -1,27 +1,83 @@
 @import url(navbar.css);
+@import url(inicio.css);
 
-@media (min-width: 1px) and  (max-width: 1000px) {
-    .canto{
-        display: none;
+
+/* NAVBAR MEDIAS */
+
+/* === RESPONSIVIDADE PARA CELULAR === */
+@media (max-width: 768px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        position: relative;
     }
 
-    .cantoDireito{
-        display: none;
-    }
-}
-
-@media (min-width: 1px) and (max-width: 500px) {
-    .txtnav {
-        font-size: 0.7rem;
-    }
-}
-
-@media (min-width: 1px) and (max-width: 430px) {
     .center {
-        gap: 1%;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+        width: 100%;
+        background-color: #003559;
     }
-    .txtnav {
-        text-wrap: initial;
 
+    .txtnav {
+        font-size: 1rem;
+        padding: 5px 0;
+    }
+
+    .iconSafe {
+        display: none;
+    }
+
+    .iconGit {
+        display: none
+    }
+
+    .canto {
+        position: relative;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .cantoDireito {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-bottom: 10px;
+    }
+}
+
+/* === RESPONSIVO PARA TABLETS === */
+@media (max-width: 1024px) {
+    .center {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .txtnav {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+}
+
+
+/* DIVS CSS */
+
+@media (max-width: 500px) {
+    .sec1{
+        display: none;
+    }
+
+    .sec2 {
+        font-size: 1rem;
+    }
+
+    .txtinicio {
+        font-size: 1.3rem;
     }
 }

@@ -1,0 +1,105 @@
+.txtinicio {
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+    text-align: left;
+}
+
+.Inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f2fd;
+    padding: 2%;
+    margin: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(63, 61, 86);
+}
+
+.sec1 {
+    width: 40%;
+    padding-right: 5%;
+}
+
+.sec1 img {
+    width: 100%;
+    height: auto;
+}
+
+.sec2 {
+    width: 60%;
+}
+
+.sec3 {
+    width: 80%;
+    padding-right: 5%;
+}
+
+.sec3 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Passos */
+
+.Passos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f2fd;
+    padding: 2%;
+    margin: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(63, 61, 86);
+}
+
+/* Cuidados */
+
+.Cuidados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f2fd;
+    padding: 2%;
+    margin: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(63, 61, 86);
+}
+
+.tituloPeq {
+    font-size: 1rem;
+    margin-bottom: 1%;
+}
+
+.cima {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.afaste {
+    margin-top: 2%;
+}
+
+/* Materiais */
+.Materiais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f2fd;
+    padding: 2%;
+    margin: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(63, 61, 86);
+}
+
+/* Sobre */
+
+.Sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f2fd;
+    padding: 2%;
+    margin: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(63, 61, 86);
+}
